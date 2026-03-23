@@ -20,6 +20,16 @@
   }
   body {
     @apply font-sans antialiased transition-colors duration-500 selection:bg-gold selection:text-white;
+    overflow-x: hidden;
+  }
+
+  img {
+    display: block;
+    max-width: 100%;
+  }
+
+  button, input, select, textarea {
+    font: inherit;
   }
   
   h1, h2, h3, h4, h5, h6 {
@@ -49,13 +59,6 @@
 
   .text-gradient {
     @apply bg-clip-text text-transparent bg-gradient-to-r from-gold via-gold-light to-gold-dark;
-  }
-
-  .parallax {
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
   }
 
   .mask-radial {
