@@ -1,0 +1,35 @@
+{
+  "name": "vertice-imobiliaria-construcoes",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Site institucional da Vértice Imobiliária & Construções, com foco em apresentação de empreendimentos, serviços e posicionamento de marca no segmento imobiliário.",
+  "author": "GEDEON KASHOMONA",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GEDEON1708/Site-imobili-rio-.git"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "node ./node_modules/vite/bin/vite.js --host=0.0.0.0 --port=3000",
+    "build": "node ./node_modules/vite/bin/vite.js build",
+    "preview": "node ./node_modules/vite/bin/vite.js preview",
+    "clean": "cmd /c if exist dist rmdir /s /q dist",
+    "lint": "node ./node_modules/typescript/bin/tsc --noEmit"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.14",
+    "@vitejs/plugin-react": "^5.0.4",
+    "lucide-react": "^0.546.0",
+    "motion": "^12.23.24",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.13.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "autoprefixer": "^10.4.21",
+    "tailwindcss": "^4.1.14",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
+  }
+}
